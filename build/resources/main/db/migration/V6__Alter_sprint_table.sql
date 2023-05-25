@@ -1,0 +1,3 @@
+ALTER TABLE sprint
+ADD COLUMN is_active BOOLEAN DEFAULT false,
+ADD COLUMN is_historical BOOLEAN DEFAULT false

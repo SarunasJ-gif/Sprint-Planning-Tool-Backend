@@ -1,0 +1,17 @@
+security:
+  jwt:
+   secret-key: secretkeydevbridgesourceryacademybackendedvinas12345678
+spring:
+  flyway:
+    enabled: false
+    locations: classpath:/db/migration
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+mybatis:
+  print:
+    mapper-locations: classpath:/mapper/*.xml
+
+server:
+  port: 9090
